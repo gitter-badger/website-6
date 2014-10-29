@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,600,700' rel='stylesheet'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Grufi" %></title>
+    <meta name="Grufi Website" content="Grufi">
+    <%= stylesheet_link_tag "main", "styles.min" %>
+    <%= javascript_include_tag  "gmap.js", "jquery-2.1.1.min", "main.js", "scripts.min" %>
+  </head>
+  <body class="<%= page_classes %>">
+    <%= yield %>
+  </body>
+</html>

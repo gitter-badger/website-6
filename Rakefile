@@ -1,7 +1,7 @@
-# Deploy without updating the API:
-# - middleman server
+# How to deploy:
+# - bundle exec middleman server
 # - visit http://0.0.0.0:4567 and verify everything was generated correctly
-# - rake deploy
+# - bundle exec rake deploy
 require "bundler/setup"
 require 'yaml'
 

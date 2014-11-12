@@ -15,4 +15,5 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 
 # Deploy tools
+gem 'rake'
 gem 'highline'

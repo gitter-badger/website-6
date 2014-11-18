@@ -1,4 +1,5 @@
 ## Grufi Website
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/grufi/website?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 The website for the [Grufi](http://grufiapp.com) service.
 
